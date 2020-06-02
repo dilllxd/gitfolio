@@ -5,7 +5,7 @@
   "main": "build.js",
   "bin": "bin/gitfolio.js",
   "scripts": {
-    "build": "OUT_DIR='./dist' node bin/gitfolio.js build k4ustu3h -f -t dark -s updated -c k4ustu3h -d k4ustu3h -D k4ustu3h -e k4ustu3h@gmail.com -F k4ustu3h -i k4ustu3h -k k4ustu3h -m k4ustu3h -r kaustubhladiya -E 16727002 -S k4ustu3h -T k4ustu3h -w k4ustu3h_ -x 9461231",
+    "build": "OUT_DIR='./dist' node bin/gitfolio.js build dilllxd -f -t dark -s updated -e dylan@dylanh.dev -i dilllx -k dilll -r dilllx -S dilll -w dilllxd",
     "cli": "OUT_DIR='./dist' node bin/gitfolio.js",
     "clean": "rm -rf ./dist/*",
     "prettier": "prettier --write \"./**/*.{js,jsx,json,html,css,md}\"",
