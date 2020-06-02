@@ -194,7 +194,7 @@ module.exports.updateHTML = (username, opts) => {
                 };"><a href="https://forum.xda-developers.com/member.php?u=${xda}" target="_blank" class="socials"><span class="iconify" data-icon="mdi-xda"></span></a></span>
                 <span style="display:${
                   youtube == null ? "none !important" : "block"
-                };"><a href="https://www.youtube.com/channel/{youtube}" target="_blank" class="socials"><span class="iconify" data-icon="mdi-youtube"></span></a></span>
+                };"><a href="https://www.youtube.com/channel/${youtube}" target="_blank" class="socials"><span class="iconify" data-icon="mdi-youtube"></span></a></span>
                 </div>
                 `;
           //Script
