@@ -23,4 +23,4 @@ deploy:
   edge: true # opt in to dpl v2
   local_dir: dist
   verbose: true
-  fqdn: k4ustu3h.cf
+  fqdn: dylanh.dev
