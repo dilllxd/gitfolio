@@ -99,6 +99,7 @@ async function buildCommand(username, program) {
     telegram: program.telegram,
     twitter: program.twitter,
     xda: program.xda,
+    youtube: program.youtube,
   };
 
   await populateConfig(opts);
