@@ -83,17 +83,16 @@ body {
   text-decoration: none;
 }
 
-.profile_img {
-  animation: grad 8s ease infinite;
-  background: var(--gradient);
-  background-size: 300% 300%;
-  font-family: "Asap Condensed", sans-serif;
-  font-size: 128px;
-  height: 180px;
-  transition: background 0.5s ease;
+#profile_img {
   width: 180px;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  height: 180px;
+  min-width: 180px;
+  min-height: 180px;
+  max-width: 180px;
+  max-height: 180px;
+  border-radius: 5px;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
 }
 
 @keyframes grad {
