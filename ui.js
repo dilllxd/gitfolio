@@ -67,6 +67,7 @@ function uiCommand() {
     const telegram = req.body.telegram ? req.body.telegram : null;
     const twitter = req.body.twitter ? req.body.twitter : null;
     const xda = req.body.xda ? req.body.xda : null;
+    const youtube = req.body.youtube ? req.body.youtube : null;
     const background = req.body.background
       ? req.body.background
       : "https://source.unsplash.com/1280x720/?wallpaper";
