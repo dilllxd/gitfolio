@@ -41,6 +41,7 @@ program
   .option("-T, --telegram [username]", "specify telegram username")
   .option("-w, --twitter [username]", "specify twitter username")
   .option("-x, --xda [user id]", "specify xda user id")
+  .option("-y, --youtube [user id]", "specify youtube user id")
   .action(buildCommand);
 
 program
