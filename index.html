@@ -23,7 +23,10 @@
       href="https://avatars1.githubusercontent.com/u/36942187?v=4"
       type="image/png"
     />
-    <meta name="description" content="ok" />
+    <meta
+      name="description"
+      content="I just copy and paste random pieces of code together."
+    />
     <meta
       property="og:image"
       content="https://avatars1.githubusercontent.com/u/36942187?v=4"
@@ -31,7 +34,10 @@
     <meta property="og:type" content="profile" />
     <meta property="og:title" content="dilllxd" />
     <meta property="og:url" content="https://github.com/dilllxd" />
-    <meta property="og:description" content="ok" />
+    <meta
+      property="og:description"
+      content="I just copy and paste random pieces of code together."
+    />
     <meta property="profile:username" content="dilllxd" />
     <meta
       name="twitter:image:src"
@@ -39,14 +45,15 @@
     />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="dilllxd" />
-    <meta name="twitter:description" content="ok" />
+    <meta
+      name="twitter:description"
+      content="I just copy and paste random pieces of code together."
+    />
   </head>
 
   <body>
     <div class="profile">
-      <div class="profile_img">
-        <span>K_</span>
-      </div>
+      <div id="profile_img"></div>
       <div id="username">
         <span id="text" style="display: block;"></span>
         <div class="console-underscore" id="console">_</div>
@@ -68,10 +75,10 @@
             &nbsp;&nbsp;dylan@dylanh.dev
           </a>
         </span>
-        <span style="display: none;">
-          <a href="https://www.google.com/maps/search/?api=1&amp;query=null">
+        <span style="display: block;">
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=FL">
             <span class="iconify" data-icon="mdi-map-marker"></span>
-            &nbsp;&nbsp;null
+            &nbsp;&nbsp;FL
           </a>
         </span>
         <span style="display: none;">
@@ -352,7 +359,11 @@
         });
 
         // function([string1, string2],target id,[color1,color2])
-        consoleText(["Dylan", "ok"], "text", ["white", "white"]);
+        consoleText(
+          ["Dylan", "I just copy and paste random pieces of code together."],
+          "text",
+          ["white", "white"]
+        );
 
         function consoleText(words, id, colors) {
           if (colors === undefined) colors = ["#fff"];
