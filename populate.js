@@ -106,6 +106,9 @@ module.exports.updateHTML = (username, opts) => {
           icon.setAttribute("type", "image/png");
 
           document.getElementsByTagName("head")[0].appendChild(icon);
+          document.getElementById(
+            "profile_img"
+          ).style.background = `url('${user.avatar_url}') center center`;
           document.getElementsByTagName("head")[0].innerHTML += `
           <meta name="description" content="${user.bio}" />
           <meta property="og:image" content="${user.avatar_url}" />
