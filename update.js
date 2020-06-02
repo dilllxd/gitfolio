@@ -29,7 +29,8 @@ async function updateCommand() {
     steam: data[0].steam,
     telegram: data[0].telegram,
     twitter: data[0].twitter,
-    xda: data[0].xda
+    xda: data[0].xda,
+    youtube: data[0].youtube
   };
   updateHTML(username, opts);
 }
