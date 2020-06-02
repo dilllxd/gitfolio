@@ -17,7 +17,7 @@ script:
 after_success:
   - lhci autorun --upload.target=temporary-public-storage
 deploy:
-  provider: pages:git
+  provider: pages
   token: $GITHUB_TOKEN
   cleanup: false
   edge: true # opt in to dpl v2
