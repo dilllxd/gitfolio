@@ -46,7 +46,8 @@ module.exports.updateHTML = (username, opts) => {
     steam,
     telegram,
     twitter,
-    xda
+    xda,
+    youtube
   } = opts;
   //add data to assets/index.html
   jsdom
@@ -191,6 +192,9 @@ module.exports.updateHTML = (username, opts) => {
                 <span style="display:${
                   xda == null ? "none !important" : "block"
                 };"><a href="https://forum.xda-developers.com/member.php?u=${xda}" target="_blank" class="socials"><span class="iconify" data-icon="mdi-xda"></span></a></span>
+                <span style="display:${
+                  youtube == null ? "none !important" : "block"
+                };"><a href="https://www.youtube.com/channel/{youtube}" target="_blank" class="socials"><span class="iconify" data-icon="mdi-youtube"></span></a></span>
                 </div>
                 `;
           //Script
