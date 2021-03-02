@@ -308,6 +308,23 @@ module.exports.updateHTML = (username, opts) => {
               console.log("Wrote gamer.html");
             }
           );
+		
+          await fs.writeFile(
+            `${outDir}/vps.html`,
+            `<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="7; url='http://207.244.250.120/'" />
+  </head>
+  <body>
+    <p>Please follow <a href="http://207.244.250.120/">this link</a>.</p>
+  </body>
+</html>`,
+            function(error) {
+              if (error) throw error;
+              console.log("Wrote vps.html");
+            }
+          );
 		  
           await fs.writeFile(
             `${outDir}/keybase.txt`,
